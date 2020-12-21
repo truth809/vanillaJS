@@ -1,0 +1,24 @@
+body {
+  background-color: peru;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+body {
+  color: #ecf0f1;
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.form,
+.greeitngs {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
