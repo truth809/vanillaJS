@@ -3,11 +3,12 @@ const body = document.querySelector("body");
 const IMG_NUMBER = 5;
 
 function paintImage(imgNumber) {
-    const image = new Image();
-    image.src = `images/${imgNumber + 1}.jpg`;
-    image.classList.add("bgImage");
-    body.prepend(image);
-    // body.style.backgroundImage= `url(images/${imgNumber + 1}.jpg)`;
+    // const image = new Image();
+    // image.src = `images/${imgNumber + 1}.jpg`;
+    // image.classList.add("bgImage");
+    // body.prepend(image);
+    body.classList.add("bgImage1");
+    body.style.backgroundImage= `url(images/${imgNumber + 1}.jpg)`;
 }
 
 function genRandom() {
